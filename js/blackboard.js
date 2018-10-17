@@ -169,5 +169,4 @@ function copyCanvasRegionToBuffer( canvas, bufferCanvas ){
     return bufferCanvas;
   }
 
-addListeners(board);
 addListeners(board2);
