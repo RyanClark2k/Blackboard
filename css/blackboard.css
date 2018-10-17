@@ -1,0 +1,61 @@
+
+.bb {
+    background: black;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    touch-action: none;
+    cursor: crosshair;
+}
+
+button {
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+#colorChooser {
+    left: 15px;
+}
+
+#sizeUp {
+    left: 40px;
+    color: white;
+    background: transparent;
+}
+
+#sizeDown {
+    left: 65px;
+    color: white;
+    background: transparent;
+}
+
+#undo {
+    left: 90px;
+    color: white;
+    background: transparent;
+}
+
+#redo {
+    left: 115px;
+    color: white;
+    background: transparent;
+}
+
+#clear {
+    left: 540px;
+    color: white;
+    background: transparent;
+    width: auto;
+}
+
+#container {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+}
