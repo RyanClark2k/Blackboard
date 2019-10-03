@@ -6,6 +6,8 @@
     margin-top: 20px;
     touch-action: none;
     cursor: crosshair;
+    padding: 0px;
+    width: 100%;
 }
 
 button {
@@ -18,35 +20,35 @@ button {
 }
 
 #colorChooser {
-    left: 15px;
+    left: 3%;
 }
 
 #sizeUp {
-    left: 40px;
+    left: 7%;
     color: white;
     background: transparent;
 }
 
 #sizeDown {
-    left: 65px;
+    left: 11%;
     color: white;
     background: transparent;
 }
 
 #undo {
-    left: 90px;
+    left: 15%;
     color: white;
     background: transparent;
 }
 
 #redo {
-    left: 115px;
+    left: 19%;
     color: white;
     background: transparent;
 }
 
 #clear {
-    left: 540px;
+    left: 90%;
     color: white;
     background: transparent;
     width: auto;
@@ -56,6 +58,5 @@ button {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 600px;
-    height: 400px;
+    width: 100%;
 }
