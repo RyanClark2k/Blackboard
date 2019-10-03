@@ -37,6 +37,11 @@ function addListeners(canvas){
         handleDown(e.changedTouches[0], canvas, ctx);
     });
 
+    canvas.addEventListener("touchstart",  function(event) {event.preventDefault()})
+    canvas.addEventListener("touchmove",   function(event) {event.preventDefault()})
+    canvas.addEventListener("touchend",    function(event) {event.preventDefault()})
+    canvas.addEventListener("touchcancel", function(event) {event.preventDefault()})
+
     window.addEventListener('keydown', function(e){
         if ((e.metaKey || e.ctrlKey) && e.key=='z'){
             undo(ctx);
